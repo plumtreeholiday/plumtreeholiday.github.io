@@ -1,4 +1,6 @@
 @import 'https://fonts.googleapis.com/css?family=Raleway:400,700|Roboto+Slab:300,400)';
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:300';
+
 /* http://meyerweb.com/eric/tools/css/reset/
 	 v2.0 | 20110126
 	 License: none (public domain)
@@ -1233,15 +1235,14 @@ hr {
 	margin-bottom: .2em; }
 
 .panel-cover__description {
-	font-family: "Gabriola";
-#	font-weight: lighter;
-	font-size: 24px;
+	font-family: 'Alegreya Sans SC', sans-serif;
+	font-size: 18px;
 	margin: 0 30px; }
 
 .panel-cover__divider {
 	width: 50%;
-	margin: 25px auto;
-	border-top: 1px solid rgba(255, 255, 255, 0.14); }
+	margin: 20px auto;
+	border-top: 1px solid rgba(255, 255, 255, 0.20); }
 
 .panel-cover__divider--secondary {
 	width: 15%; }
