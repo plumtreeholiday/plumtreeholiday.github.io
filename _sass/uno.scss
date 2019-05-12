@@ -1392,6 +1392,21 @@ nav {
 			border-color: #FFF;
 			opacity: 1; }
 
+.navigation__item_img {
+	display: inline-block;
+	margin: 0 2px 0 0;
+	line-height: 1em; }
+	.navigation__item_img a {
+		display: block;
+		position: relative;
+		border-color: #FFF;
+		color: #FFF;
+		opacity: .8; }
+		.navigation__item_img a:hover {
+			color: #FFF;
+			border-color: #FFF;
+			opacity: 1; }
+
 .navigation--social {
 	margin-left: 0.0em; }
 	.navigation--social a {

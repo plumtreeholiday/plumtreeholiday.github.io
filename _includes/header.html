@@ -29,9 +29,17 @@
           <nav class="cover-navigation navigation--social">
             <ul class="navigation">
 
-              <li class="navigation__item">
+              <li class="navigation__item_img">
+                <a href="http://booking.com" title="Book" target="_blank">
+				  <img src="{{ site.baseurl }}/images/booking.svg" height="40">
+                  <span class="label">Book</span>
+                </a>
+              </li>
+
+              <li class="navigation__item_img">
                 <a href="http://maps.google.com" title="Map" target="_blank">
-                  <i class="icon icon-map"></i>
+				  <img src="{{ site.baseurl }}/images/map.svg" height="40">
+                  <!-- i class="icon icon-map"></i -->
                   <span class="label">Map</span>
                 </a>
               </li>
@@ -48,9 +56,10 @@
 
             {% if site.author.facebook_username %}
               <!-- Facebook -->
-              <li class="navigation__item">
+              <li class="navigation__item_img">
                 <a href="http://fb.me/{{ site.author.facebook_username }}" title="{{ site.author.facebook_username }} on Facebook" target="_blank">
-                  <i class="icon icon-social-facebook"></i>
+				  <img src="{{ site.baseurl }}/images/fb.svg" height="40">
+                  <!-- i class="icon icon-social-facebook"></i -->
                   <span class="label">Facebook</span>
                 </a>
               </li>
@@ -78,9 +87,10 @@
 
             {% if site.author.email %}
               <!-- Email -->
-              <li class="navigation__item">
+              <li class="navigation__item_img">
                 <a href="mailto:{{ site.author.email }}" title="Email {{ site.author.email }}" target="_blank">
-                  <i class="icon icon-mail"></i>
+				  <img src="{{ site.baseurl }}/images/mail.svg" height="40">
+                  <!-- i class="icon icon-mail"></i -->
                   <span class="label">Email</span>
                 </a>
               </li>
